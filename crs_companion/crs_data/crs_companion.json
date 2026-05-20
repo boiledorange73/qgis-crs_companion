@@ -35,19 +35,31 @@
         "ja": "WGS 84 地理座標系"
       },
       "description": {
-        "en": "A global latitude and longitude coordinate reference system. It is widely used for GPS, web services, and general geographic data exchange.",
-        "ja": "世界的に使われる緯度・経度の座標参照系です。GPS、Webサービス、一般的な地理データ交換でよく使われます。"
+        "en": "A geographic coordinate system used globally. It is widely used for GNSS and general geographic data exchange.",
+        "ja": "世界的に使われる地理座標系です。GNSSだけでなく、一般的な地理データ交換でよく使われます。"
       }
     },
+    "EPSG:3395": {
+      "image": "epsg_3395.png",
+      "name": {
+        "en": "WGS84 Mercator",
+        "ja": "WGS84 メルカトル"
+      },
+      "description": {
+        "en": "A projected coordinate system using the Mercator projection based on the WGS 84 ellipsoid.",
+        "ja": "WGS84 回転楕円体メルカトル図法の投影座標系です。"
+      }
+    },
+
     "EPSG:3857": {
       "image": "epsg_3857.png",
       "name": {
-        "en": "WGS 84 / Pseudo-Mercator",
-        "ja": "WGS 84 / 疑似メルカトル"
+        "en": "Web Mercator",
+        "ja": "Webメルカトル"
       },
       "description": {
-        "en": "A projected CRS commonly used for web maps. It is convenient for tiled map display, but it distorts areas and distances, especially toward the poles.",
-        "ja": "Web地図で広く使われる投影座標系です。タイル地図表示に便利ですが、極域に近づくほど面積や距離の歪みが大きくなります。"
+        "en": "A projected coordinate system commonly used for web map apps.",
+        "ja": "Webマップアプリで広く使われる投影座標系です。"
       }
     },
     "EPSG:4301": {
@@ -57,7 +69,7 @@
         "ja": "日本測地系地理座標系"
       },
       "description": {
-        "en": "A legacy Japanese geographic CRS based on the Tokyo datum. It was being used between 1892 and 2003 (rivised in 1918). It differs from JGD2000 by approximately 400m",
+        "en": "A legacy Japanese geographic coordinate system based on the Tokyo datum. It was being used between 1892 and 2003 (rivised in 1918). It differs from JGD2000 by approximately 400m",
         "ja": "日本測地系 (Tokyo Datum) に基づく地理座標系です。1892年から2003年まで使われていました (1918年に訂正されました)。世界測地系 (JGD2000) とは 400m 程度の差があるため十分な注意が必要です。"
       }
     },
@@ -68,7 +80,7 @@
         "ja": "JGD2000 地理座標系"
       },
       "description": {
-        "en": "A modern Japanese geographic CRS based on JGD2000, used from 2003 to 2011. It has only a small difference from location data obtained by GPS.",
+        "en": "A modern Japanese geographic coordinate system based on JGD2000, used from 2003 to 2011. It has only a small difference from location data obtained by GPS.",
         "ja": "JGD2000 に基づく現代の日本向け地理座標系です。2003年から2011年まで使われていました。GPSで得る位置情報との誤差が少ないです。"
       }
     },
@@ -85,7 +97,7 @@
     },
 
     "EPSG:30161": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 1",
             "ja": "Tokyo Datum 平面直角座標系 1系"
@@ -97,7 +109,7 @@
     },
 
     "EPSG:30162": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 2",
             "ja": "Tokyo Datum 平面直角座標系 2系"
@@ -109,7 +121,7 @@
     },
 
     "EPSG:30163": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 3",
             "ja": "Tokyo Datum 平面直角座標系 3系"
@@ -121,7 +133,7 @@
     },
 
     "EPSG:30164": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 4",
             "ja": "Tokyo Datum 平面直角座標系 4系"
@@ -133,7 +145,7 @@
     },
 
     "EPSG:30165": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 5",
             "ja": "Tokyo Datum 平面直角座標系 5系"
@@ -145,7 +157,7 @@
     },
 
     "EPSG:30166": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 6",
             "ja": "Tokyo Datum 平面直角座標系 6系"
@@ -157,7 +169,7 @@
     },
 
     "EPSG:30167": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 7",
             "ja": "Tokyo Datum 平面直角座標系 7系"
@@ -169,7 +181,7 @@
     },
 
     "EPSG:30168": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 8",
             "ja": "Tokyo Datum 平面直角座標系 8系"
@@ -181,7 +193,7 @@
     },
 
     "EPSG:30169": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 9",
             "ja": "Tokyo Datum 平面直角座標系 9系"
@@ -193,7 +205,7 @@
     },
 
     "EPSG:30170": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 10",
             "ja": "Tokyo Datum 平面直角座標系 10系"
@@ -205,7 +217,7 @@
     },
 
     "EPSG:30171": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 11",
             "ja": "Tokyo Datum 平面直角座標系 11系"
@@ -217,7 +229,7 @@
     },
 
     "EPSG:30172": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 12",
             "ja": "Tokyo Datum 平面直角座標系 12系"
@@ -229,7 +241,7 @@
     },
 
     "EPSG:30173": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 13",
             "ja": "Tokyo Datum 平面直角座標系 13系"
@@ -241,7 +253,7 @@
     },
 
     "EPSG:30174": {
-        "image": null,
+        "image": "epsg_30161.png",
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 14",
             "ja": "Tokyo Datum 平面直角座標系 14系"
@@ -253,7 +265,8 @@
     },
 
     "EPSG:30175": {
-        "image": null,
+        "image": "epsg_30161.png",
+
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 15",
             "ja": "Tokyo Datum 平面直角座標系 15系"
@@ -265,7 +278,8 @@
     },
 
     "EPSG:30176": {
-        "image": null,
+        "image": "epsg_30161.png",
+
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 16",
             "ja": "Tokyo Datum 平面直角座標系 16系"
@@ -277,7 +291,8 @@
     },
 
     "EPSG:30177": {
-        "image": null,
+        "image": "epsg_30161.png",
+
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 17",
             "ja": "Tokyo Datum 平面直角座標系 17系"
@@ -289,7 +304,8 @@
     },
 
     "EPSG:30178": {
-        "image": null,
+        "image": "epsg_30161.png",
+
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 18",
             "ja": "Tokyo Datum 平面直角座標系 18系"
@@ -301,7 +317,8 @@
     },
 
     "EPSG:30179": {
-        "image": null,
+        "image": "epsg_30161.png",
+
         "name": {
             "en": "Tokyo Datum Japan Plate Rectangular 19",
             "ja": "Tokyo Datum 平面直角座標系 19系"
@@ -313,7 +330,7 @@
     },
 
     "EPSG:2443": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 1",
             "ja": "JGD2000 平面直角座標系 1系"
@@ -325,7 +342,7 @@
     },
 
     "EPSG:2444": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 2",
             "ja": "JGD2000 平面直角座標系 2系"
@@ -337,7 +354,7 @@
     },
 
     "EPSG:2445": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 3",
             "ja": "JGD2000 平面直角座標系 3系"
@@ -349,7 +366,7 @@
     },
 
     "EPSG:2446": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 4",
             "ja": "JGD2000 平面直角座標系 4系"
@@ -361,7 +378,7 @@
     },
 
     "EPSG:2447": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 5",
             "ja": "JGD2000 平面直角座標系 5系"
@@ -373,7 +390,7 @@
     },
 
     "EPSG:2448": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 6",
             "ja": "JGD2000 平面直角座標系 6系"
@@ -385,7 +402,7 @@
     },
 
     "EPSG:2449": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 7",
             "ja": "JGD2000 平面直角座標系 7系"
@@ -397,7 +414,7 @@
     },
 
     "EPSG:2450": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 8",
             "ja": "JGD2000 平面直角座標系 8系"
@@ -409,7 +426,7 @@
     },
 
     "EPSG:2451": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 9",
             "ja": "JGD2000 平面直角座標系 9系"
@@ -421,7 +438,7 @@
     },
 
     "EPSG:2452": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 10",
             "ja": "JGD2000 平面直角座標系 10系"
@@ -433,7 +450,7 @@
     },
 
     "EPSG:2453": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 11",
             "ja": "JGD2000 平面直角座標系 11系"
@@ -445,7 +462,7 @@
     },
 
     "EPSG:2454": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 12",
             "ja": "JGD2000 平面直角座標系 12系"
@@ -457,7 +474,7 @@
     },
 
     "EPSG:2455": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 13",
             "ja": "JGD2000 平面直角座標系 13系"
@@ -469,7 +486,7 @@
     },
 
     "EPSG:2456": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 14",
             "ja": "JGD2000 平面直角座標系 14系"
@@ -481,7 +498,7 @@
     },
 
     "EPSG:2457": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 15",
             "ja": "JGD2000 平面直角座標系 15系"
@@ -493,7 +510,7 @@
     },
 
     "EPSG:2458": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 16",
             "ja": "JGD2000 平面直角座標系 16系"
@@ -505,7 +522,7 @@
     },
 
     "EPSG:2459": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 17",
             "ja": "JGD2000 平面直角座標系 17系"
@@ -517,7 +534,7 @@
     },
 
     "EPSG:2460": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 18",
             "ja": "JGD2000 平面直角座標系 18系"
@@ -529,7 +546,7 @@
     },
 
     "EPSG:2461": {
-        "image": null,
+        "image": "epsg_2443.png",
         "name": {
             "en": "JGD2000 Japan Plate Rectangular 19",
             "ja": "JGD2000 平面直角座標系 19系"
@@ -541,7 +558,7 @@
     },
 
     "EPSG:6669": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 1",
             "ja": "JGD2011 平面直角座標系 1系"
@@ -553,7 +570,7 @@
     },
 
     "EPSG:6670": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 2",
             "ja": "JGD2011 平面直角座標系 2系"
@@ -565,7 +582,7 @@
     },
 
     "EPSG:6671": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 3",
             "ja": "JGD2011 平面直角座標系 3系"
@@ -577,7 +594,7 @@
     },
 
     "EPSG:6672": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 4",
             "ja": "JGD2011 平面直角座標系 4系"
@@ -589,7 +606,7 @@
     },
 
     "EPSG:6673": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 5",
             "ja": "JGD2011 平面直角座標系 5系"
@@ -601,7 +618,7 @@
     },
 
     "EPSG:6674": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 6",
             "ja": "JGD2011 平面直角座標系 6系"
@@ -613,7 +630,7 @@
     },
 
     "EPSG:6675": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 7",
             "ja": "JGD2011 平面直角座標系 7系"
@@ -625,7 +642,7 @@
     },
 
     "EPSG:6676": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 8",
             "ja": "JGD2011 平面直角座標系 8系"
@@ -637,7 +654,7 @@
     },
 
     "EPSG:6677": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 9",
             "ja": "JGD2011 平面直角座標系 9系"
@@ -649,7 +666,7 @@
     },
 
     "EPSG:6678": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 10",
             "ja": "JGD2011 平面直角座標系 10系"
@@ -661,7 +678,7 @@
     },
 
     "EPSG:6679": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 11",
             "ja": "JGD2011 平面直角座標系 11系"
@@ -673,7 +690,7 @@
     },
 
     "EPSG:6680": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 12",
             "ja": "JGD2011 平面直角座標系 12系"
@@ -685,7 +702,7 @@
     },
 
     "EPSG:6681": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 13",
             "ja": "JGD2011 平面直角座標系 13系"
@@ -697,7 +714,7 @@
     },
 
     "EPSG:6682": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 14",
             "ja": "JGD2011 平面直角座標系 14系"
@@ -709,7 +726,7 @@
     },
 
     "EPSG:6683": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 15",
             "ja": "JGD2011 平面直角座標系 15系"
@@ -721,7 +738,7 @@
     },
 
     "EPSG:6684": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 16",
             "ja": "JGD2011 平面直角座標系 16系"
@@ -733,7 +750,7 @@
     },
 
     "EPSG:6685": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 17",
             "ja": "JGD2011 平面直角座標系 17系"
@@ -745,7 +762,7 @@
     },
 
     "EPSG:6686": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 18",
             "ja": "JGD2011 平面直角座標系 18系"
@@ -757,7 +774,7 @@
     },
 
     "EPSG:6687": {
-        "image": null,
+        "image": "epsg_6669.png",
         "name": {
             "en": "JGD2011 Japan Plate Rectangular 19",
             "ja": "JGD2011 平面直角座標系 19系"
