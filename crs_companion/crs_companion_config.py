@@ -34,12 +34,6 @@ class CrsCompanionConfig:
             or ""
         )
 
-#    def _current_locale(self):
-#        lang = QLocale.system().name().split("_")[0]
-#        if lang in ("ja", "en"):
-#            return lang
-#        return "en"
-
     def _current_locale(self):
         from qgis.PyQt.QtCore import QLocale
         from qgis.core import QgsApplication, QgsSettings

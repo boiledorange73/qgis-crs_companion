@@ -82,17 +82,6 @@ class ImageResizeHandle(QFrame):
             "border-top: 3px solid palette(highlight);"
             "}"
         )
-#        self.setStyleSheet(
-#            "QFrame#CrsCompanionImageResizeHandle {"
-#            "border-top: 2px solid palette(mid);"
-#            "border-bottom: 1px solid palette(light);"
-#            "margin-left: 16px;"
-#            "margin-right: 16px;"
-#            "}"
-#            "QFrame#CrsCompanionImageResizeHandle:hover {"
-#            "border-top: 3px solid palette(highlight);"
-#            "}"
-#        )
 
     def _get_y(self, event):
         if hasattr(event, "position"):
@@ -179,7 +168,13 @@ class CrsCompanionDock(QDockWidget):
         crs = QgsProject.instance().crs()
         authid = crs.authid() if crs and crs.isValid() else ""
 
-        item = self.data.get("items", {}).get(authid)
+        items = self.data.get("items", {})
+        #
+        item = items.get(authid)
+        # if items has alias, alias is applued
+        if item and "alias" in item:
+            item = items.get(item["alias"])
+        # If item not found
         if not item:
             item = self._unknown_item(authid)
 
