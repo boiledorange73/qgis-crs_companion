@@ -198,15 +198,30 @@ class CrsCompanionDock(QDockWidget):
     def _localized_value(self, obj, key):
         return self.config.localized(obj, key)
 
+    def _check_file_in_dir(self, dir_path, relfile_path):
+        if relfile_path is None:
+            return None
+        dir_path = os.path.realpath(dir_path)
+        file_path = os.path.realpath(os.path.join(dir_path, relfile_path))
+        try:
+            if os.path.commonpath([dir_path, file_path]) != dir_path:
+                return None
+        except ValueError:
+            return None
+        if not os.path.isfile(file_path):
+            return None
+        return file_path
+
     def _apply_item(self, authid, item):
         image_name = None
         if "image" in item:
             image_name = item["image"]
         if image_name is None:
             image_name = self.data.get("fallback_image", "unknown.png")
-        image_path = os.path.join(self.plugin_dir, "images", image_name)
-        pixmap = QPixmap(image_path)
-        if pixmap.isNull():
+        # checks whether
+        image_path = self._check_file_in_dir( os.path.join(self.plugin_dir, "images"), image_name)
+        pixmap = QPixmap(image_path) if image_path is not None else None
+        if pixmap is None or pixmap.isNull():
             fallback = os.path.join(
                 self.plugin_dir,
                 "images",
