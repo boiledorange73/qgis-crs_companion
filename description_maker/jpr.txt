@@ -1,0 +1,684 @@
+    "EPSG:30161": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 1",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 1Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(1Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ’·èŒ§ ­™“‡Œ§i‰‚”üŒQ“‡A™“‡—ñ“‡“™‚Ì¼•û—£“‡•”j"
+        }
+    },
+
+    "EPSG:30162": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 2",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 2Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(2Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  •Ÿ‰ªŒ§ ²‰êŒ§ ŒF–{Œ§ ‘å•ªŒ§ ‹{èŒ§ ­™“‡Œ§ (1ŒnˆÈŠO)"
+        }
+    },
+
+    "EPSG:30163": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 3",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 3Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(3Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  RŒûŒ§ “‡ªŒ§ L“‡Œ§"
+        }
+    },
+
+    "EPSG:30164": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 4",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 4Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(4Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ìŒ§ ˆ¤•QŒ§ “¿“‡Œ§ ‚’mŒ§"
+        }
+    },
+
+    "EPSG:30165": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 5",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 5Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(5Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  •ºŒÉŒ§ ’¹æŒ§ ‰ªRŒ§"
+        }
+    },
+
+    "EPSG:30166": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 6",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 6Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(6Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‹“s•{ ‘åã•{ •ŸˆäŒ§  ‰êŒ§ OdŒ§ “Ş—ÇŒ§ ˜a‰ÌRŒ§"
+        }
+    },
+
+    "EPSG:30167": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 7",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 7Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(7Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ÎìŒ§ •xRŒ§ Šò•ŒŒ§ ˆ¤’mŒ§"
+        }
+    },
+
+    "EPSG:30168": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 8",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 8Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(8Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  VŠƒŒ§ ’·–ìŒ§ R—œŒ§ Ã‰ªŒ§"
+        }
+    },
+
+    "EPSG:30169": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 9",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 9Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(9Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si14Œn, 18Œn, 19ŒnˆÈŠOj•Ÿ“‡Œ§ “È–ØŒ§ ˆïéŒ§ é‹ÊŒ§ ç—tŒ§ ŒQ”nŒ§ _“ŞìŒ§"
+        }
+    },
+
+    "EPSG:30170": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 10",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 10Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(10Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ÂXŒ§ H“cŒ§ RŒ`Œ§ ŠâèŒ§ ‹{éŒ§"
+        }
+    },
+
+    "EPSG:30171": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 11",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 11Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(11Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i¼•”j"
+        }
+    },
+
+    "EPSG:30172": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 12",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 12Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(12Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i11Œn, 13ŒnˆÈŠOj"
+        }
+    },
+
+    "EPSG:30173": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 13",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 13Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(13Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i“Œ•”j"
+        }
+    },
+
+    "EPSG:30174": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 14",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 14Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(14Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si¬Š}Œ´”“‡j"
+        }
+    },
+
+    "EPSG:30175": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 15",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 15Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(15Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i16Œn, 17ŒnˆÈŠOj"
+        }
+    },
+
+    "EPSG:30176": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 16",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 16Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(16Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i¼•”j"
+        }
+    },
+
+    "EPSG:30177": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 17",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 17Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(17Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i‘å“Œ”“‡j"
+        }
+    },
+
+    "EPSG:30178": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 18",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 18Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(18Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si‰«ƒm’¹“‡j"
+        }
+    },
+
+    "EPSG:30179": {
+        "image": null,
+        "name": {
+            "en": "Tokyo Datum Japan Plate Rectangular 19",
+            "ja": "Tokyo Datum •½–Ê’¼ŠpÀ•WŒn 19Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
+            "ja": "Tokyo Datum ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(19Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si“ì’¹“‡j"
+        }
+    },
+
+    "EPSG:2443": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 1",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 1Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(1Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ’·èŒ§ ­™“‡Œ§i‰‚”üŒQ“‡A™“‡—ñ“‡“™‚Ì¼•û—£“‡•”j"
+        }
+    },
+
+    "EPSG:2444": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 2",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 2Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(2Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  •Ÿ‰ªŒ§ ²‰êŒ§ ŒF–{Œ§ ‘å•ªŒ§ ‹{èŒ§ ­™“‡Œ§ (1ŒnˆÈŠO)"
+        }
+    },
+
+    "EPSG:2445": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 3",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 3Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(3Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  RŒûŒ§ “‡ªŒ§ L“‡Œ§"
+        }
+    },
+
+    "EPSG:2446": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 4",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 4Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(4Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ìŒ§ ˆ¤•QŒ§ “¿“‡Œ§ ‚’mŒ§"
+        }
+    },
+
+    "EPSG:2447": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 5",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 5Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(5Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  •ºŒÉŒ§ ’¹æŒ§ ‰ªRŒ§"
+        }
+    },
+
+    "EPSG:2448": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 6",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 6Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(6Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‹“s•{ ‘åã•{ •ŸˆäŒ§  ‰êŒ§ OdŒ§ “Ş—ÇŒ§ ˜a‰ÌRŒ§"
+        }
+    },
+
+    "EPSG:2449": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 7",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 7Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(7Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ÎìŒ§ •xRŒ§ Šò•ŒŒ§ ˆ¤’mŒ§"
+        }
+    },
+
+    "EPSG:2450": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 8",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 8Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(8Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  VŠƒŒ§ ’·–ìŒ§ R—œŒ§ Ã‰ªŒ§"
+        }
+    },
+
+    "EPSG:2451": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 9",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 9Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(9Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si14Œn, 18Œn, 19ŒnˆÈŠOj•Ÿ“‡Œ§ “È–ØŒ§ ˆïéŒ§ é‹ÊŒ§ ç—tŒ§ ŒQ”nŒ§ _“ŞìŒ§"
+        }
+    },
+
+    "EPSG:2452": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 10",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 10Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(10Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ÂXŒ§ H“cŒ§ RŒ`Œ§ ŠâèŒ§ ‹{éŒ§"
+        }
+    },
+
+    "EPSG:2453": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 11",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 11Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(11Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i¼•”j"
+        }
+    },
+
+    "EPSG:2454": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 12",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 12Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(12Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i11Œn, 13ŒnˆÈŠOj"
+        }
+    },
+
+    "EPSG:2455": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 13",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 13Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(13Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i“Œ•”j"
+        }
+    },
+
+    "EPSG:2456": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 14",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 14Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(14Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si¬Š}Œ´”“‡j"
+        }
+    },
+
+    "EPSG:2457": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 15",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 15Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(15Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i16Œn, 17ŒnˆÈŠOj"
+        }
+    },
+
+    "EPSG:2458": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 16",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 16Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(16Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i¼•”j"
+        }
+    },
+
+    "EPSG:2459": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 17",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 17Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(17Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i‘å“Œ”“‡j"
+        }
+    },
+
+    "EPSG:2460": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 18",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 18Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(18Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si‰«ƒm’¹“‡j"
+        }
+    },
+
+    "EPSG:2461": {
+        "image": null,
+        "name": {
+            "en": "JGD2000 Japan Plate Rectangular 19",
+            "ja": "JGD2000 •½–Ê’¼ŠpÀ•WŒn 19Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2000 (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
+            "ja": "JGD2000 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(19Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si“ì’¹“‡j"
+        }
+    },
+
+    "EPSG:6669": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 1",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 1Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(1Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ’·èŒ§ ­™“‡Œ§i‰‚”üŒQ“‡A™“‡—ñ“‡“™‚Ì¼•û—£“‡•”j"
+        }
+    },
+
+    "EPSG:6670": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 2",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 2Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(2Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  •Ÿ‰ªŒ§ ²‰êŒ§ ŒF–{Œ§ ‘å•ªŒ§ ‹{èŒ§ ­™“‡Œ§ (1ŒnˆÈŠO)"
+        }
+    },
+
+    "EPSG:6671": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 3",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 3Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(3Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  RŒûŒ§ “‡ªŒ§ L“‡Œ§"
+        }
+    },
+
+    "EPSG:6672": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 4",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 4Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(4Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ìŒ§ ˆ¤•QŒ§ “¿“‡Œ§ ‚’mŒ§"
+        }
+    },
+
+    "EPSG:6673": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 5",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 5Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(5Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  •ºŒÉŒ§ ’¹æŒ§ ‰ªRŒ§"
+        }
+    },
+
+    "EPSG:6674": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 6",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 6Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(6Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‹“s•{ ‘åã•{ •ŸˆäŒ§  ‰êŒ§ OdŒ§ “Ş—ÇŒ§ ˜a‰ÌRŒ§"
+        }
+    },
+
+    "EPSG:6675": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 7",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 7Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(7Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ÎìŒ§ •xRŒ§ Šò•ŒŒ§ ˆ¤’mŒ§"
+        }
+    },
+
+    "EPSG:6676": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 8",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 8Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(8Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  VŠƒŒ§ ’·–ìŒ§ R—œŒ§ Ã‰ªŒ§"
+        }
+    },
+
+    "EPSG:6677": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 9",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 9Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(9Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si14Œn, 18Œn, 19ŒnˆÈŠOj•Ÿ“‡Œ§ “È–ØŒ§ ˆïéŒ§ é‹ÊŒ§ ç—tŒ§ ŒQ”nŒ§ _“ŞìŒ§"
+        }
+    },
+
+    "EPSG:6678": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 10",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 10Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(10Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ÂXŒ§ H“cŒ§ RŒ`Œ§ ŠâèŒ§ ‹{éŒ§"
+        }
+    },
+
+    "EPSG:6679": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 11",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 11Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(11Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i¼•”j"
+        }
+    },
+
+    "EPSG:6680": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 12",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 12Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(12Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i11Œn, 13ŒnˆÈŠOj"
+        }
+    },
+
+    "EPSG:6681": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 13",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 13Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(13Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  –kŠC“¹i“Œ•”j"
+        }
+    },
+
+    "EPSG:6682": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 14",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 14Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(14Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si¬Š}Œ´”“‡j"
+        }
+    },
+
+    "EPSG:6683": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 15",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 15Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(15Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i16Œn, 17ŒnˆÈŠOj"
+        }
+    },
+
+    "EPSG:6684": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 16",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 16Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(16Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i¼•”j"
+        }
+    },
+
+    "EPSG:6685": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 17",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 17Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(17Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  ‰«“êŒ§i‘å“Œ”“‡j"
+        }
+    },
+
+    "EPSG:6686": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 18",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 18Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(18Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si‰«ƒm’¹“‡j"
+        }
+    },
+
+    "EPSG:6687": {
+        "image": null,
+        "name": {
+            "en": "JGD2011 Japan Plate Rectangular 19",
+            "ja": "JGD2011 •½–Ê’¼ŠpÀ•WŒn 19Œn"
+        },
+        "description": {
+            "en": "Japan Plate Rectangular System based on JGD2011 (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
+            "ja": "JGD2011 ‚ğŠî‚É‚µ‚½•½–Ê’¼ŠpÀ•WŒn(19Œn)‚Å‚·B\n\nŠY“–’nˆæiŠT—vj:\n  “Œ‹“si“ì’¹“‡j"
+        }
+    },
+

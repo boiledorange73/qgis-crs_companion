@@ -1,0 +1,252 @@
+    "EPSG:32651": {
+        "image": "epsg_32651.png",
+        "name": {
+            "en": "WGS84 UTM Zone 51",
+            "ja": "WGS84 UTM ゾーン 51"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on WGS84 (Zone 51).\n\nCovered Areas:\n\n  Western Okinawa",
+            "ja": "WGS84 を基にした UTM (Universal Transverse Mercator) ゾーン 51 です。\n\n該当地域（概要）:\n  沖縄県西部"
+        }
+    },
+
+    "EPSG:32652": {
+        "image": "epsg_32651.png",
+        "name": {
+            "en": "WGS84 UTM Zone 52",
+            "ja": "WGS84 UTM ゾーン 52"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on WGS84 (Zone 52).\n\nCovered Areas:\n\n  Okinawa (excluding the western part), Kyushu region",
+            "ja": "WGS84 を基にした UTM (Universal Transverse Mercator) ゾーン 52 です。\n\n該当地域（概要）:\n  沖縄県(西部以外)、九州地方"
+        }
+    },
+
+    "EPSG:32653": {
+        "image": "epsg_32651.png",
+        "name": {
+            "en": "WGS84 UTM Zone 53",
+            "ja": "WGS84 UTM ゾーン 53"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on WGS84 (Zone 53).\n\nCovered Areas:\n\n  Chugoku region, Shikoku region, Kinki region, western Chubu region",
+            "ja": "WGS84 を基にした UTM (Universal Transverse Mercator) ゾーン 53 です。\n\n該当地域（概要）:\n  中国地方、四国地方、近畿地方、中部地方西部"
+        }
+    },
+
+    "EPSG:32654": {
+        "image": "epsg_32651.png",
+        "name": {
+            "en": "WGS84 UTM Zone 54",
+            "ja": "WGS84 UTM ゾーン 54"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on WGS84 (Zone 54).\n\nCovered Areas:\n\n  Eastern Chubu region, Kanto region, Tohoku region, Hokkaido (excluding the eastern part)",
+            "ja": "WGS84 を基にした UTM (Universal Transverse Mercator) ゾーン 54 です。\n\n該当地域（概要）:\n  中部地方東部、関東地方、東北地方、北海道(東部以外)"
+        }
+    },
+
+    "EPSG:32655": {
+        "image": "epsg_32651.png",
+        "name": {
+            "en": "WGS84 UTM Zone 55",
+            "ja": "WGS84 UTM ゾーン 55"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on WGS84 (Zone 55).\n\nCovered Areas:\n\n  Eastern Hokkaido",
+            "ja": "WGS84 を基にした UTM (Universal Transverse Mercator) ゾーン 55 です。\n\n該当地域（概要）:\n  北海道東部"
+        }
+    },
+
+    "EPSG:32656": {
+        "image": "epsg_32651.png",
+        "name": {
+            "en": "WGS84 UTM Zone 56",
+            "ja": "WGS84 UTM ゾーン 56"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on WGS84 (Zone 56).\n\nCovered Areas:\n\n  Minamitorishima",
+            "ja": "WGS84 を基にした UTM (Universal Transverse Mercator) ゾーン 56 です。\n\n該当地域（概要）:\n  南鳥島"
+        }
+    },
+
+    "EPSG:3092": {
+        "image": "epsg_3092.png",
+        "name": {
+            "en": "Tokyo Datum UTM Zone 51",
+            "ja": "Tokyo Datum UTM ゾーン 51"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on Tokyo Datum (Zone 51).\n\nCovered Areas:\n\n  Western Okinawa",
+            "ja": "Tokyo Datum を基にした UTM (Universal Transverse Mercator) ゾーン 51 です。\n\n該当地域（概要）:\n  沖縄県西部"
+        }
+    },
+
+    "EPSG:3093": {
+        "image": "epsg_3092.png",
+        "name": {
+            "en": "Tokyo Datum UTM Zone 52",
+            "ja": "Tokyo Datum UTM ゾーン 52"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on Tokyo Datum (Zone 52).\n\nCovered Areas:\n\n  Okinawa (excluding the western part), Kyushu region",
+            "ja": "Tokyo Datum を基にした UTM (Universal Transverse Mercator) ゾーン 52 です。\n\n該当地域（概要）:\n  沖縄県(西部以外)、九州地方"
+        }
+    },
+
+    "EPSG:3094": {
+        "image": "epsg_3092.png",
+        "name": {
+            "en": "Tokyo Datum UTM Zone 53",
+            "ja": "Tokyo Datum UTM ゾーン 53"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on Tokyo Datum (Zone 53).\n\nCovered Areas:\n\n  Chugoku region, Shikoku region, Kinki region, western Chubu region",
+            "ja": "Tokyo Datum を基にした UTM (Universal Transverse Mercator) ゾーン 53 です。\n\n該当地域（概要）:\n  中国地方、四国地方、近畿地方、中部地方西部"
+        }
+    },
+
+    "EPSG:3095": {
+        "image": "epsg_3092.png",
+        "name": {
+            "en": "Tokyo Datum UTM Zone 54",
+            "ja": "Tokyo Datum UTM ゾーン 54"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on Tokyo Datum (Zone 54).\n\nCovered Areas:\n\n  Eastern Chubu region, Kanto region, Tohoku region, Hokkaido (excluding the eastern part)",
+            "ja": "Tokyo Datum を基にした UTM (Universal Transverse Mercator) ゾーン 54 です。\n\n該当地域（概要）:\n  中部地方東部、関東地方、東北地方、北海道(東部以外)"
+        }
+    },
+
+    "EPSG:3096": {
+        "image": "epsg_3092.png",
+        "name": {
+            "en": "Tokyo Datum UTM Zone 55",
+            "ja": "Tokyo Datum UTM ゾーン 55"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on Tokyo Datum (Zone 55).\n\nCovered Areas:\n\n  Eastern Hokkaido",
+            "ja": "Tokyo Datum を基にした UTM (Universal Transverse Mercator) ゾーン 55 です。\n\n該当地域（概要）:\n  北海道東部"
+        }
+    },
+
+    "EPSG:3097": {
+        "image": "epsg_3097.png",
+        "name": {
+            "en": "JGD2000 UTM Zone 51",
+            "ja": "JGD2000 UTM ゾーン 51"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2000 (Zone 51).\n\nCovered Areas:\n\n  Western Okinawa",
+            "ja": "JGD2000 を基にした UTM (Universal Transverse Mercator) ゾーン 51 です。\n\n該当地域（概要）:\n  沖縄県西部"
+        }
+    },
+
+    "EPSG:3098": {
+        "image": "epsg_3097.png",
+        "name": {
+            "en": "JGD2000 UTM Zone 52",
+            "ja": "JGD2000 UTM ゾーン 52"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2000 (Zone 52).\n\nCovered Areas:\n\n  Okinawa (excluding the western part), Kyushu region",
+            "ja": "JGD2000 を基にした UTM (Universal Transverse Mercator) ゾーン 52 です。\n\n該当地域（概要）:\n  沖縄県(西部以外)、九州地方"
+        }
+    },
+
+    "EPSG:3099": {
+        "image": "epsg_3097.png",
+        "name": {
+            "en": "JGD2000 UTM Zone 53",
+            "ja": "JGD2000 UTM ゾーン 53"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2000 (Zone 53).\n\nCovered Areas:\n\n  Chugoku region, Shikoku region, Kinki region, western Chubu region",
+            "ja": "JGD2000 を基にした UTM (Universal Transverse Mercator) ゾーン 53 です。\n\n該当地域（概要）:\n  中国地方、四国地方、近畿地方、中部地方西部"
+        }
+    },
+
+    "EPSG:3100": {
+        "image": "epsg_3097.png",
+        "name": {
+            "en": "JGD2000 UTM Zone 54",
+            "ja": "JGD2000 UTM ゾーン 54"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2000 (Zone 54).\n\nCovered Areas:\n\n  Eastern Chubu region, Kanto region, Tohoku region, Hokkaido (excluding the eastern part)",
+            "ja": "JGD2000 を基にした UTM (Universal Transverse Mercator) ゾーン 54 です。\n\n該当地域（概要）:\n  中部地方東部、関東地方、東北地方、北海道(東部以外)"
+        }
+    },
+
+    "EPSG:3101": {
+        "image": "epsg_3097.png",
+        "name": {
+            "en": "JGD2000 UTM Zone 55",
+            "ja": "JGD2000 UTM ゾーン 55"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2000 (Zone 55).\n\nCovered Areas:\n\n  Eastern Hokkaido",
+            "ja": "JGD2000 を基にした UTM (Universal Transverse Mercator) ゾーン 55 です。\n\n該当地域（概要）:\n  北海道東部"
+        }
+    },
+
+    "EPSG:6688": {
+        "image": "epsg_6688.png",
+        "name": {
+            "en": "JGD2011 UTM Zone 51",
+            "ja": "JGD2011 UTM ゾーン 51"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2011 (Zone 51).\n\nCovered Areas:\n\n  Western Okinawa",
+            "ja": "JGD2011 を基にした UTM (Universal Transverse Mercator) ゾーン 51 です。\n\n該当地域（概要）:\n  沖縄県西部"
+        }
+    },
+
+    "EPSG:6689": {
+        "image": "epsg_6688.png",
+        "name": {
+            "en": "JGD2011 UTM Zone 52",
+            "ja": "JGD2011 UTM ゾーン 52"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2011 (Zone 52).\n\nCovered Areas:\n\n  Okinawa (excluding the western part), Kyushu region",
+            "ja": "JGD2011 を基にした UTM (Universal Transverse Mercator) ゾーン 52 です。\n\n該当地域（概要）:\n  沖縄県(西部以外)、九州地方"
+        }
+    },
+
+    "EPSG:6690": {
+        "image": "epsg_6688.png",
+        "name": {
+            "en": "JGD2011 UTM Zone 53",
+            "ja": "JGD2011 UTM ゾーン 53"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2011 (Zone 53).\n\nCovered Areas:\n\n  Chugoku region, Shikoku region, Kinki region, western Chubu region",
+            "ja": "JGD2011 を基にした UTM (Universal Transverse Mercator) ゾーン 53 です。\n\n該当地域（概要）:\n  中国地方、四国地方、近畿地方、中部地方西部"
+        }
+    },
+
+    "EPSG:6691": {
+        "image": "epsg_6688.png",
+        "name": {
+            "en": "JGD2011 UTM Zone 54",
+            "ja": "JGD2011 UTM ゾーン 54"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2011 (Zone 54).\n\nCovered Areas:\n\n  Eastern Chubu region, Kanto region, Tohoku region, Hokkaido (excluding the eastern part)",
+            "ja": "JGD2011 を基にした UTM (Universal Transverse Mercator) ゾーン 54 です。\n\n該当地域（概要）:\n  中部地方東部、関東地方、東北地方、北海道(東部以外)"
+        }
+    },
+
+    "EPSG:6692": {
+        "image": "epsg_6688.png",
+        "name": {
+            "en": "JGD2011 UTM Zone 55",
+            "ja": "JGD2011 UTM ゾーン 55"
+        },
+        "description": {
+            "en": "Universal Transverse Mercator based on JGD2011 (Zone 55).\n\nCovered Areas:\n\n  Eastern Hokkaido",
+            "ja": "JGD2011 を基にした UTM (Universal Transverse Mercator) ゾーン 55 です。\n\n該当地域（概要）:\n  北海道東部"
+        }
+    },
+
