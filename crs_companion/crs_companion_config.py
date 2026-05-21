@@ -12,8 +12,14 @@ class CrsCompanionConfig:
 
     def load(self):
         path = os.path.join(self.plugin_dir, "crs_data", "crs_companion.json")
-        with open(path, "r", encoding="utf-8") as f:
-            self.data = json.load(f)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if not isinstance(data, dict):
+                raise ValueError("root JSON must be an object")
+            self.data = data
+        except Exception:
+            self.data = {}
 
     def text(self, key, **kwargs):
         value = self.localized(self.data.get("ui", {}), key)
@@ -25,9 +31,16 @@ class CrsCompanionConfig:
         return value
 
     def localized(self, obj, key):
+        if not isinstance(obj, dict):
+            return ""
+        # gets values
         values = obj.get(key, {})
         if isinstance(values, str):
+            # values can be string if values is not required to be localized.
             return values
+        if not isinstance(values, dict):
+            # values is dict whose key is a lang and value is a localized text.
+            return ""
         return (
             values.get(self.locale)
             or values.get(self.data.get("default_locale", "en"))
