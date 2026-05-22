@@ -33,7 +33,8 @@ class CrsCompanionPlugin:
 
     def initGui(self):
         menu_text = self.config.text("plugin_menu")
-        self.action = QAction(menu_text, self.iface.mainWindow())
+        menu_toggle_text = self.config.text("plugin_menu_toggle")
+        self.action = QAction(menu_toggle_text, self.iface.mainWindow())
         self.action.triggered.connect(self.toggle_dock)
 
         self.iface.addPluginToMenu(menu_text, self.action)
@@ -41,6 +42,7 @@ class CrsCompanionPlugin:
 
         self.dock = CrsCompanionDock(self.iface, self.plugin_dir, self.config)
         self.iface.addDockWidget(self.dock.default_area(), self.dock)
+        self.dock.hide()
 
         QgsProject.instance().crsChanged.connect(self.dock.refresh)
         self.dock.refresh()

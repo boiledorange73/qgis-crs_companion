@@ -11,7 +11,7 @@ from qgis.PyQt.QtWidgets import (
     QSizePolicy,
     QFrame,
 )
-from qgis.core import QgsProject, QgsMessageLog, Qgis
+from qgis.core import QgsProject, QgsSettings, QgsMessageLog, Qgis
 
 class CompanionImageLabel(QLabel):
     """Image width follows the dock width; height is controlled only by the handle."""
@@ -106,6 +106,9 @@ class ImageResizeHandle(QFrame):
 
     def mouseReleaseEvent(self, event):
         self._drag_start_y = None
+        # calls an event handler.
+        if self.on_resize_finished is not None:
+            self.on_resize_finished(self.image_label.image_height())
         event.accept()
 
 
@@ -121,7 +124,10 @@ class CrsCompanionDock(QDockWidget):
         self.setWindowTitle(self.config.text("dock_title"))
 
         self.image_label = CompanionImageLabel()
+        self._restore_image_height()
+
         self.resize_handle = ImageResizeHandle(self.image_label)
+        self.resize_handle.on_resize_finished = self._store_image_height
         self.resize_handle.setToolTip(self.config.text("resize_handle_tooltip"))
         self.code_label = QLabel()
         self.name_label = QLabel()
@@ -185,6 +191,15 @@ class CrsCompanionDock(QDockWidget):
             item = self._unknown_item(authid)
 
         self._apply_item(authid, item)
+
+    def _store_image_height(self, height):
+        settings = QgsSettings()
+        settings.setValue("CRSCompanion/imageHeight", int(height))
+
+    def _restore_image_height(self):
+        settings = QgsSettings()
+        image_height = settings.value("CRSCompanion/imageHeight", 220, type=int)
+        self.image_label.set_image_height(image_height)
 
     def _unknown_item(self, authid):
         code = authid or self.config.text("unknown_crs_code")

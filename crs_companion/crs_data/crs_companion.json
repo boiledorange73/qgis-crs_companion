@@ -6,6 +6,10 @@
       "en": "CRS Companion",
       "ja": "CRSさん"
     },
+    "plugin_menu_toggle": {
+      "en": "Toggle CRS Companion",
+      "ja": "CRSさん 表示切替"
+    },
     "dock_title": {
       "en": "CRS Companion",
       "ja": "CRSさん"
