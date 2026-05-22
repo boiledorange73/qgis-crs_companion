@@ -11,8 +11,7 @@ from qgis.PyQt.QtWidgets import (
     QSizePolicy,
     QFrame,
 )
-from qgis.core import QgsProject
-
+from qgis.core import QgsProject, QgsMessageLog, Qgis
 
 class CompanionImageLabel(QLabel):
     """Image width follows the dock width; height is controlled only by the handle."""
@@ -158,9 +157,16 @@ class CrsCompanionDock(QDockWidget):
         container.setLayout(layout)
         self.setWidget(container)
 
+    def _log_warning(self, message):
+        QgsMessageLog.logMessage(
+            message,
+            "CRS Companion",
+            Qgis.Warning,
+    )
+
     def refresh(self):
         # Reload JSON on refresh so UI/CRS text edits are picked up without restarting QGIS.
-        self.config.load()
+        self.config.load(logger=self._log_warning)
         self.data = self.config.data
         self.setWindowTitle(self.config.text("dock_title"))
         self.resize_handle.setToolTip(self.config.text("resize_handle_tooltip"))

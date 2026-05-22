@@ -4,13 +4,13 @@ import os
 class CrsCompanionConfig:
     """Loads plugin UI strings and CRS companion data from JSON."""
 
-    def __init__(self, plugin_dir):
+    def __init__(self, plugin_dir, logger=None):
         self.plugin_dir = plugin_dir
         self.data = {}
         self.locale = self._current_locale()
-        self.load()
+        self.load(logger)
 
-    def load(self):
+    def load(self, logger=None):
         path = os.path.join(self.plugin_dir, "crs_data", "crs_companion.json")
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -18,8 +18,10 @@ class CrsCompanionConfig:
             if not isinstance(data, dict):
                 raise ValueError("root JSON must be an object")
             self.data = data
-        except Exception:
+        except Exception as e:
             self.data = {}
+            if logger:
+                logger(f"Failed to load {path}: {e}")
 
     def text(self, key, **kwargs):
         value = self.localized(self.data.get("ui", {}), key)
