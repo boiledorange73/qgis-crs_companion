@@ -183,7 +183,7 @@ class CrsCompanionDock(QDockWidget):
         items = self.data.get("items", {})
         #
         item = items.get(authid)
-        # if items has alias, alias is applued
+        # if items has alias, alias must be applied even though it has other properies.
         if item and "alias" in item:
             item = items.get(item["alias"])
         # If item not found

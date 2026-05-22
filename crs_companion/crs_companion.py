@@ -1,6 +1,7 @@
 import os
 
 from qgis.PyQt.QtCore import QCoreApplication, QTranslator
+from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
 from qgis.core import QgsProject
 
@@ -34,7 +35,8 @@ class CrsCompanionPlugin:
     def initGui(self):
         menu_text = self.config.text("plugin_menu")
         menu_toggle_text = self.config.text("plugin_menu_toggle")
-        self.action = QAction(menu_toggle_text, self.iface.mainWindow())
+        icon_path = os.path.join(self.plugin_dir, "crs_companion-32x32.png")
+        self.action = QAction(QIcon(icon_path), menu_toggle_text, self.iface.mainWindow())
         self.action.triggered.connect(self.toggle_dock)
 
         self.iface.addPluginToMenu(menu_text, self.action)

@@ -8,4 +8,4 @@ author=boiledorange73
 email=boiledorange73@gmail.com
 about=Dockable panel that displays a character image and explanation for the current project CRS.
 category=Plugins
-icon=images/unknown.png
+icon=images/crs_companion-64x64.png
