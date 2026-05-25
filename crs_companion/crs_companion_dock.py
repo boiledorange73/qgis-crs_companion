@@ -234,22 +234,24 @@ class CrsCompanionDock(QDockWidget):
         return file_path
 
     def _apply_item(self, authid, item):
-        image_name = None
-        if "image" in item:
+        pixmap = None
+        # gets image_path
+        if isinstance(item, dict) and "image" in item:
             image_name = item["image"]
-        if image_name is None:
+            image_path = self._check_file_in_dir( os.path.join(self.plugin_dir, "images"), image_name)
+            if image_path is not None:
+                pixmap = QPixmap(image_path)
+                if pixmap.isNull():
+                    pixmap = None
+        # if gets no image, gets fallback image
+        if pixmap is None:
             image_name = self.data.get("fallback_image", "unknown.png")
-        # checks whether
-        image_path = self._check_file_in_dir( os.path.join(self.plugin_dir, "images"), image_name)
-        pixmap = QPixmap(image_path) if image_path is not None else None
-        if pixmap is None or pixmap.isNull():
-            fallback = os.path.join(
-                self.plugin_dir,
-                "images",
-                self.data.get("fallback_image", "unknown.png"),
-            )
-            pixmap = QPixmap(fallback)
-
+            image_path = self._check_file_in_dir( os.path.join(self.plugin_dir, "images"), image_name)
+            if image_path is not None:
+                pixmap = QPixmap(image_path)
+                if pixmap.isNull():
+                    pixmap = None
+        # sets pixmap
         self.image_label.set_companion_pixmap(pixmap)
         self.code_label.setText(authid or self.config.text("unknown_crs_code"))
         self.name_label.setText(self._localized_value(item, "name"))
