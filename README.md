@@ -76,3 +76,7 @@ The CRS Companion dock panel will appear on the right side of the QGIS window.
 This plugin source code is licensed under the BSD 2-Clause License.
 
 Images included in this plugin are licensed under CC BY 4.0, unless otherwise noted.
+
+## Demo
+
+![CRS Companion demo](crs_companion-demo1.png)
