@@ -173,7 +173,7 @@ class CrsCompanionDock(QDockWidget):
 
     def refresh(self):
         # Reload JSON on refresh so UI/CRS text edits are picked up without restarting QGIS.
-        self.config.load(logger=self._log_warning)
+        # self.config.load(logger=self._log_warning)
         self.data = self.config.data
         self.setWindowTitle(self.config.text("dock_title"))
         self.resize_handle.setToolTip(self.config.text("resize_handle_tooltip"))
