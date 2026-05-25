@@ -255,7 +255,7 @@ class CrsCompanionDock(QDockWidget):
                     pixmap = None
         # sets pixmap
         self.image_label.set_companion_pixmap(pixmap)
-        self.code_label.setText(authid or self.config.text("unknown_crs_code"))
+        self.code_label.setText(authid or self.tr("Unknown CRS"))
         self.name_label.setText(self._localized_value(item, "name"))
         self.description_text.setPlainText(self._localized_value(item, "description"))
 
