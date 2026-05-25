@@ -33,8 +33,8 @@ class CrsCompanionPlugin:
                 QCoreApplication.installTranslator(self.translator)
 
     def initGui(self):
-        menu_text = self.config.text("plugin_menu")
-        menu_toggle_text = self.config.text("plugin_menu_toggle")
+        menu_text = self.tr("CRS Companion")
+        menu_toggle_text = self.tr("Toggle CRS Companion")
         icon_path = os.path.join(self.plugin_dir, "crs_companion-32x32.png")
         self.action = QAction(QIcon(icon_path), menu_toggle_text, self.iface.mainWindow())
         self.action.triggered.connect(self.toggle_dock)
@@ -57,7 +57,7 @@ class CrsCompanionPlugin:
                 pass
 
         if self.action:
-            menu_text = self.config.text("plugin_menu")
+            menu_text = self.tr("CRS Companion")
             self.iface.removePluginMenu(menu_text, self.action)
             self.iface.removeToolBarIcon(self.action)
             self.action = None
@@ -79,3 +79,6 @@ class CrsCompanionPlugin:
         if self.dock.isVisible():
             self.dock.raise_()
             self.dock.refresh()
+
+    def tr(self, message):
+        return QCoreApplication.translate("CrsCompanion", message)

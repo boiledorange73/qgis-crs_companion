@@ -12,6 +12,7 @@ from qgis.PyQt.QtWidgets import (
     QFrame,
 )
 from qgis.core import QgsProject, QgsSettings, QgsMessageLog, Qgis
+from qgis.PyQt.QtCore import QCoreApplication, QTranslator
 
 class CompanionImageLabel(QLabel):
     """Image width follows the dock width; height is controlled only by the handle."""
@@ -122,14 +123,12 @@ class CrsCompanionDock(QDockWidget):
         self.data = config.data
 
         self.setObjectName("CrsCompanionDock")
-        self.setWindowTitle(self.config.text("dock_title"))
 
         self.image_label = CompanionImageLabel()
         self._restore_image_height()
 
         self.resize_handle = ImageResizeHandle(self.image_label)
         self.resize_handle.on_resize_finished = self._store_image_height
-        self.resize_handle.setToolTip(self.config.text("resize_handle_tooltip"))
         self.code_label = QLabel()
         self.name_label = QLabel()
         self.description_text = QTextEdit()
@@ -143,7 +142,8 @@ class CrsCompanionDock(QDockWidget):
 
         self.code_label.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
         self.name_label.setWordWrap(True)
-
+        #
+        self._setup_texts()
         self._setup_layout()
 
     def default_area(self):
@@ -175,8 +175,7 @@ class CrsCompanionDock(QDockWidget):
         # Reload JSON on refresh so UI/CRS text edits are picked up without restarting QGIS.
         # self.config.load(logger=self._log_warning)
         self.data = self.config.data
-        self.setWindowTitle(self.config.text("dock_title"))
-        self.resize_handle.setToolTip(self.config.text("resize_handle_tooltip"))
+        self._setup_texts()
         #
         crs = QgsProject.instance().crs()
         authid = crs.authid() if crs and crs.isValid() else ""
@@ -208,17 +207,14 @@ class CrsCompanionDock(QDockWidget):
         self.image_label.set_image_height(image_height)
 
     def _unknown_item(self, authid):
-        code = authid or self.config.text("unknown_crs_code")
+        code = authid or self.tr("Unknown CRS")
         return {
             "image": self.data.get("fallback_image", "unknown.png"),
             "name": {
-                self.config.locale: self.config.text("unsupported_crs_name"),
+                self.config.locale: self.tr("Unsupported CRS"),
             },
             "description": {
-                self.config.locale: self.config.text(
-                    "unsupported_crs_description",
-                    code=code,
-                ),
+                self.config.locale: self.tr("No companion data has been prepared for {code} yet.").format(code=code),
             },
         }
 
@@ -262,3 +258,10 @@ class CrsCompanionDock(QDockWidget):
         self.code_label.setText(authid or self.config.text("unknown_crs_code"))
         self.name_label.setText(self._localized_value(item, "name"))
         self.description_text.setPlainText(self._localized_value(item, "description"))
+
+    def tr(self, message):
+        return QCoreApplication.translate("CrsCompanion", message)
+
+    def _setup_texts(self):
+        self.setWindowTitle(self.tr("CRS Companion"))
+        self.resize_handle.setToolTip(self.tr("Drag this horizontal line to resize the CRS image vertically."))

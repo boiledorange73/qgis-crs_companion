@@ -1,36 +1,6 @@
 {
   "default_locale": "en",
   "fallback_image": "unknown.png",
-  "ui": {
-    "plugin_menu": {
-      "en": "CRS Companion",
-      "ja": "CRSさん"
-    },
-    "plugin_menu_toggle": {
-      "en": "Toggle CRS Companion",
-      "ja": "CRSさん 表示切替"
-    },
-    "dock_title": {
-      "en": "CRS Companion",
-      "ja": "CRSさん"
-    },
-    "unknown_crs_code": {
-      "en": "Unknown CRS",
-      "ja": "不明なCRS"
-    },
-    "unsupported_crs_name": {
-      "en": "Unsupported CRS",
-      "ja": "未対応のCRS"
-    },
-    "unsupported_crs_description": {
-      "en": "No companion data has been prepared for {code} yet.",
-      "ja": "{code} の擬人化情報はまだ用意されていません。"
-    },
-    "resize_handle_tooltip": {
-      "en": "Drag this horizontal line to resize the CRS image vertically.",
-      "ja": "この横棒をドラッグしてCRS画像の高さを調整します。"
-    }
-  },
   "items": {
     "EPSG:4326": {
       "image": "epsg_4326.png",
@@ -53,7 +23,7 @@
         "ja": "日本測地系地理座標系"
       },
       "description": {
-        "en": "A legacy Japanese geographic coordinate system based on the Tokyo datum. It was being used between 1892 and 2003 (rivised in 1918). It differs from JGD2000 by approximately 400m",
+        "en": "A legacy Japanese geographic coordinate system based on the Tokyo datum. It was being used between 1892 and 2003 (revised in 1918). It differs from JGD2000 by approximately 400m",
         "ja": "日本測地系 (Tokyo Datum) に基づく地理座標系です。1892年から2003年まで使われていました (1918年に訂正されました)。世界測地系 (JGD2000) とは 400m 程度の差があるため十分な注意が必要です。"
       }
     },
@@ -105,11 +75,11 @@
     "EPSG:30161": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 1",
+            "en": "Tokyo Datum Japan Plane Rectangular 1",
             "ja": "Tokyo Datum 平面直角座標系 1系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
             "ja": "Tokyo Datum を基にした平面直角座標系(1系)です。\n\n該当地域（概要）:\n  長崎県 鹿児島県（奄美群島、甑島列島等の西方離島部）"
         }
     },
@@ -117,11 +87,11 @@
     "EPSG:30162": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 2",
+            "en": "Tokyo Datum Japan Plane Rectangular 2",
             "ja": "Tokyo Datum 平面直角座標系 2系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
             "ja": "Tokyo Datum を基にした平面直角座標系(2系)です。\n\n該当地域（概要）:\n  福岡県 佐賀県 熊本県 大分県 宮崎県 鹿児島県 (1系以外)"
         }
     },
@@ -129,11 +99,11 @@
     "EPSG:30163": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 3",
+            "en": "Tokyo Datum Japan Plane Rectangular 3",
             "ja": "Tokyo Datum 平面直角座標系 3系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
             "ja": "Tokyo Datum を基にした平面直角座標系(3系)です。\n\n該当地域（概要）:\n  山口県 島根県 広島県"
         }
     },
@@ -141,11 +111,11 @@
     "EPSG:30164": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 4",
+            "en": "Tokyo Datum Japan Plane Rectangular 4",
             "ja": "Tokyo Datum 平面直角座標系 4系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
             "ja": "Tokyo Datum を基にした平面直角座標系(4系)です。\n\n該当地域（概要）:\n  香川県 愛媛県 徳島県 高知県"
         }
     },
@@ -153,11 +123,11 @@
     "EPSG:30165": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 5",
+            "en": "Tokyo Datum Japan Plane Rectangular 5",
             "ja": "Tokyo Datum 平面直角座標系 5系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
             "ja": "Tokyo Datum を基にした平面直角座標系(5系)です。\n\n該当地域（概要）:\n  兵庫県 鳥取県 岡山県"
         }
     },
@@ -165,11 +135,11 @@
     "EPSG:30166": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 6",
+            "en": "Tokyo Datum Japan Plane Rectangular 6",
             "ja": "Tokyo Datum 平面直角座標系 6系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
             "ja": "Tokyo Datum を基にした平面直角座標系(6系)です。\n\n該当地域（概要）:\n  京都府 大阪府 福井県 滋賀県 三重県 奈良県 和歌山県"
         }
     },
@@ -177,11 +147,11 @@
     "EPSG:30167": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 7",
+            "en": "Tokyo Datum Japan Plane Rectangular 7",
             "ja": "Tokyo Datum 平面直角座標系 7系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
             "ja": "Tokyo Datum を基にした平面直角座標系(7系)です。\n\n該当地域（概要）:\n  石川県 富山県 岐阜県 愛知県"
         }
     },
@@ -189,11 +159,11 @@
     "EPSG:30168": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 8",
+            "en": "Tokyo Datum Japan Plane Rectangular 8",
             "ja": "Tokyo Datum 平面直角座標系 8系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
             "ja": "Tokyo Datum を基にした平面直角座標系(8系)です。\n\n該当地域（概要）:\n  新潟県 長野県 山梨県 静岡県"
         }
     },
@@ -201,11 +171,11 @@
     "EPSG:30169": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 9",
+            "en": "Tokyo Datum Japan Plane Rectangular 9",
             "ja": "Tokyo Datum 平面直角座標系 9系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
             "ja": "Tokyo Datum を基にした平面直角座標系(9系)です。\n\n該当地域（概要）:\n  東京都（14系, 18系, 19系以外）福島県 栃木県 茨城県 埼玉県 千葉県 群馬県 神奈川県"
         }
     },
@@ -213,11 +183,11 @@
     "EPSG:30170": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 10",
+            "en": "Tokyo Datum Japan Plane Rectangular 10",
             "ja": "Tokyo Datum 平面直角座標系 10系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
             "ja": "Tokyo Datum を基にした平面直角座標系(10系)です。\n\n該当地域（概要）:\n  青森県 秋田県 山形県 岩手県 宮城県"
         }
     },
@@ -225,11 +195,11 @@
     "EPSG:30171": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 11",
+            "en": "Tokyo Datum Japan Plane Rectangular 11",
             "ja": "Tokyo Datum 平面直角座標系 11系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
             "ja": "Tokyo Datum を基にした平面直角座標系(11系)です。\n\n該当地域（概要）:\n  北海道（西部）"
         }
     },
@@ -237,11 +207,11 @@
     "EPSG:30172": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 12",
+            "en": "Tokyo Datum Japan Plane Rectangular 12",
             "ja": "Tokyo Datum 平面直角座標系 12系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
             "ja": "Tokyo Datum を基にした平面直角座標系(12系)です。\n\n該当地域（概要）:\n  北海道（11系, 13系以外）"
         }
     },
@@ -249,11 +219,11 @@
     "EPSG:30173": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 13",
+            "en": "Tokyo Datum Japan Plane Rectangular 13",
             "ja": "Tokyo Datum 平面直角座標系 13系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
             "ja": "Tokyo Datum を基にした平面直角座標系(13系)です。\n\n該当地域（概要）:\n  北海道（東部）"
         }
     },
@@ -261,11 +231,11 @@
     "EPSG:30174": {
         "image": "epsg_30161.png",
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 14",
+            "en": "Tokyo Datum Japan Plane Rectangular 14",
             "ja": "Tokyo Datum 平面直角座標系 14系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
             "ja": "Tokyo Datum を基にした平面直角座標系(14系)です。\n\n該当地域（概要）:\n  東京都（小笠原諸島）"
         }
     },
@@ -274,11 +244,11 @@
         "image": "epsg_30161.png",
 
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 15",
+            "en": "Tokyo Datum Japan Plane Rectangular 15",
             "ja": "Tokyo Datum 平面直角座標系 15系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
             "ja": "Tokyo Datum を基にした平面直角座標系(15系)です。\n\n該当地域（概要）:\n  沖縄県（16系, 17系以外）"
         }
     },
@@ -287,11 +257,11 @@
         "image": "epsg_30161.png",
 
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 16",
+            "en": "Tokyo Datum Japan Plane Rectangular 16",
             "ja": "Tokyo Datum 平面直角座標系 16系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
             "ja": "Tokyo Datum を基にした平面直角座標系(16系)です。\n\n該当地域（概要）:\n  沖縄県（西部）"
         }
     },
@@ -300,11 +270,11 @@
         "image": "epsg_30161.png",
 
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 17",
+            "en": "Tokyo Datum Japan Plane Rectangular 17",
             "ja": "Tokyo Datum 平面直角座標系 17系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
             "ja": "Tokyo Datum を基にした平面直角座標系(17系)です。\n\n該当地域（概要）:\n  沖縄県（大東諸島）"
         }
     },
@@ -313,11 +283,11 @@
         "image": "epsg_30161.png",
 
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 18",
+            "en": "Tokyo Datum Japan Plane Rectangular 18",
             "ja": "Tokyo Datum 平面直角座標系 18系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
             "ja": "Tokyo Datum を基にした平面直角座標系(18系)です。\n\n該当地域（概要）:\n  東京都（沖ノ鳥島）"
         }
     },
@@ -326,11 +296,11 @@
         "image": "epsg_30161.png",
 
         "name": {
-            "en": "Tokyo Datum Japan Plate Rectangular 19",
+            "en": "Tokyo Datum Japan Plane Rectangular 19",
             "ja": "Tokyo Datum 平面直角座標系 19系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on Tokyo Datum (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
+            "en": "Japan Plane Rectangular System based on Tokyo Datum (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
             "ja": "Tokyo Datum を基にした平面直角座標系(19系)です。\n\n該当地域（概要）:\n  東京都（南鳥島）"
         }
     },
@@ -338,11 +308,11 @@
     "EPSG:2443": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 1",
+            "en": "JGD2000 Japan Plane Rectangular 1",
             "ja": "JGD2000 平面直角座標系 1系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
             "ja": "JGD2000 を基にした平面直角座標系(1系)です。\n\n該当地域（概要）:\n  長崎県 鹿児島県（奄美群島、甑島列島等の西方離島部）"
         }
     },
@@ -350,11 +320,11 @@
     "EPSG:2444": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 2",
+            "en": "JGD2000 Japan Plane Rectangular 2",
             "ja": "JGD2000 平面直角座標系 2系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
             "ja": "JGD2000 を基にした平面直角座標系(2系)です。\n\n該当地域（概要）:\n  福岡県 佐賀県 熊本県 大分県 宮崎県 鹿児島県 (1系以外)"
         }
     },
@@ -362,11 +332,11 @@
     "EPSG:2445": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 3",
+            "en": "JGD2000 Japan Plane Rectangular 3",
             "ja": "JGD2000 平面直角座標系 3系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
             "ja": "JGD2000 を基にした平面直角座標系(3系)です。\n\n該当地域（概要）:\n  山口県 島根県 広島県"
         }
     },
@@ -374,11 +344,11 @@
     "EPSG:2446": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 4",
+            "en": "JGD2000 Japan Plane Rectangular 4",
             "ja": "JGD2000 平面直角座標系 4系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
             "ja": "JGD2000 を基にした平面直角座標系(4系)です。\n\n該当地域（概要）:\n  香川県 愛媛県 徳島県 高知県"
         }
     },
@@ -386,11 +356,11 @@
     "EPSG:2447": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 5",
+            "en": "JGD2000 Japan Plane Rectangular 5",
             "ja": "JGD2000 平面直角座標系 5系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
             "ja": "JGD2000 を基にした平面直角座標系(5系)です。\n\n該当地域（概要）:\n  兵庫県 鳥取県 岡山県"
         }
     },
@@ -398,11 +368,11 @@
     "EPSG:2448": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 6",
+            "en": "JGD2000 Japan Plane Rectangular 6",
             "ja": "JGD2000 平面直角座標系 6系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
             "ja": "JGD2000 を基にした平面直角座標系(6系)です。\n\n該当地域（概要）:\n  京都府 大阪府 福井県 滋賀県 三重県 奈良県 和歌山県"
         }
     },
@@ -410,11 +380,11 @@
     "EPSG:2449": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 7",
+            "en": "JGD2000 Japan Plane Rectangular 7",
             "ja": "JGD2000 平面直角座標系 7系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
             "ja": "JGD2000 を基にした平面直角座標系(7系)です。\n\n該当地域（概要）:\n  石川県 富山県 岐阜県 愛知県"
         }
     },
@@ -422,11 +392,11 @@
     "EPSG:2450": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 8",
+            "en": "JGD2000 Japan Plane Rectangular 8",
             "ja": "JGD2000 平面直角座標系 8系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
             "ja": "JGD2000 を基にした平面直角座標系(8系)です。\n\n該当地域（概要）:\n  新潟県 長野県 山梨県 静岡県"
         }
     },
@@ -434,11 +404,11 @@
     "EPSG:2451": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 9",
+            "en": "JGD2000 Japan Plane Rectangular 9",
             "ja": "JGD2000 平面直角座標系 9系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
             "ja": "JGD2000 を基にした平面直角座標系(9系)です。\n\n該当地域（概要）:\n  東京都（14系, 18系, 19系以外）福島県 栃木県 茨城県 埼玉県 千葉県 群馬県 神奈川県"
         }
     },
@@ -446,11 +416,11 @@
     "EPSG:2452": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 10",
+            "en": "JGD2000 Japan Plane Rectangular 10",
             "ja": "JGD2000 平面直角座標系 10系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
             "ja": "JGD2000 を基にした平面直角座標系(10系)です。\n\n該当地域（概要）:\n  青森県 秋田県 山形県 岩手県 宮城県"
         }
     },
@@ -458,11 +428,11 @@
     "EPSG:2453": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 11",
+            "en": "JGD2000 Japan Plane Rectangular 11",
             "ja": "JGD2000 平面直角座標系 11系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
             "ja": "JGD2000 を基にした平面直角座標系(11系)です。\n\n該当地域（概要）:\n  北海道（西部）"
         }
     },
@@ -470,11 +440,11 @@
     "EPSG:2454": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 12",
+            "en": "JGD2000 Japan Plane Rectangular 12",
             "ja": "JGD2000 平面直角座標系 12系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
             "ja": "JGD2000 を基にした平面直角座標系(12系)です。\n\n該当地域（概要）:\n  北海道（11系, 13系以外）"
         }
     },
@@ -482,11 +452,11 @@
     "EPSG:2455": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 13",
+            "en": "JGD2000 Japan Plane Rectangular 13",
             "ja": "JGD2000 平面直角座標系 13系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
             "ja": "JGD2000 を基にした平面直角座標系(13系)です。\n\n該当地域（概要）:\n  北海道（東部）"
         }
     },
@@ -494,11 +464,11 @@
     "EPSG:2456": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 14",
+            "en": "JGD2000 Japan Plane Rectangular 14",
             "ja": "JGD2000 平面直角座標系 14系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
             "ja": "JGD2000 を基にした平面直角座標系(14系)です。\n\n該当地域（概要）:\n  東京都（小笠原諸島）"
         }
     },
@@ -506,11 +476,11 @@
     "EPSG:2457": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 15",
+            "en": "JGD2000 Japan Plane Rectangular 15",
             "ja": "JGD2000 平面直角座標系 15系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
             "ja": "JGD2000 を基にした平面直角座標系(15系)です。\n\n該当地域（概要）:\n  沖縄県（16系, 17系以外）"
         }
     },
@@ -518,11 +488,11 @@
     "EPSG:2458": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 16",
+            "en": "JGD2000 Japan Plane Rectangular 16",
             "ja": "JGD2000 平面直角座標系 16系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
             "ja": "JGD2000 を基にした平面直角座標系(16系)です。\n\n該当地域（概要）:\n  沖縄県（西部）"
         }
     },
@@ -530,11 +500,11 @@
     "EPSG:2459": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 17",
+            "en": "JGD2000 Japan Plane Rectangular 17",
             "ja": "JGD2000 平面直角座標系 17系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
             "ja": "JGD2000 を基にした平面直角座標系(17系)です。\n\n該当地域（概要）:\n  沖縄県（大東諸島）"
         }
     },
@@ -542,11 +512,11 @@
     "EPSG:2460": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 18",
+            "en": "JGD2000 Japan Plane Rectangular 18",
             "ja": "JGD2000 平面直角座標系 18系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
             "ja": "JGD2000 を基にした平面直角座標系(18系)です。\n\n該当地域（概要）:\n  東京都（沖ノ鳥島）"
         }
     },
@@ -554,11 +524,11 @@
     "EPSG:2461": {
         "image": "epsg_2443.png",
         "name": {
-            "en": "JGD2000 Japan Plate Rectangular 19",
+            "en": "JGD2000 Japan Plane Rectangular 19",
             "ja": "JGD2000 平面直角座標系 19系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2000 (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
+            "en": "Japan Plane Rectangular System based on JGD2000 (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
             "ja": "JGD2000 を基にした平面直角座標系(19系)です。\n\n該当地域（概要）:\n  東京都（南鳥島）"
         }
     },
@@ -566,11 +536,11 @@
     "EPSG:6669": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 1",
+            "en": "JGD2011 Japan Plane Rectangular 1",
             "ja": "JGD2011 平面直角座標系 1系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 1).\n\nCovered Areas:\n\n  Nagasaki, Kagoshima (western remote islands)",
             "ja": "JGD2011 を基にした平面直角座標系(1系)です。\n\n該当地域（概要）:\n  長崎県 鹿児島県（奄美群島、甑島列島等の西方離島部）"
         }
     },
@@ -578,11 +548,11 @@
     "EPSG:6670": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 2",
+            "en": "JGD2011 Japan Plane Rectangular 2",
             "ja": "JGD2011 平面直角座標系 2系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 2).\n\nCovered Areas:\n\n  Fukuoka, Saga, Kumamoto, Oita, Miyazaki, Kagoshima (excluding Series 1)",
             "ja": "JGD2011 を基にした平面直角座標系(2系)です。\n\n該当地域（概要）:\n  福岡県 佐賀県 熊本県 大分県 宮崎県 鹿児島県 (1系以外)"
         }
     },
@@ -590,11 +560,11 @@
     "EPSG:6671": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 3",
+            "en": "JGD2011 Japan Plane Rectangular 3",
             "ja": "JGD2011 平面直角座標系 3系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 3).\n\nCovered Areas:\n\n  Yamaguchi, Shimane, Hiroshima",
             "ja": "JGD2011 を基にした平面直角座標系(3系)です。\n\n該当地域（概要）:\n  山口県 島根県 広島県"
         }
     },
@@ -602,11 +572,11 @@
     "EPSG:6672": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 4",
+            "en": "JGD2011 Japan Plane Rectangular 4",
             "ja": "JGD2011 平面直角座標系 4系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 4).\n\nCovered Areas:\n\n  Kagawa, Ehime, Tokushima, Kochi",
             "ja": "JGD2011 を基にした平面直角座標系(4系)です。\n\n該当地域（概要）:\n  香川県 愛媛県 徳島県 高知県"
         }
     },
@@ -614,11 +584,11 @@
     "EPSG:6673": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 5",
+            "en": "JGD2011 Japan Plane Rectangular 5",
             "ja": "JGD2011 平面直角座標系 5系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 5).\n\nCovered Areas:\n\n  Hyogo, Tottori, Okayama",
             "ja": "JGD2011 を基にした平面直角座標系(5系)です。\n\n該当地域（概要）:\n  兵庫県 鳥取県 岡山県"
         }
     },
@@ -626,11 +596,11 @@
     "EPSG:6674": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 6",
+            "en": "JGD2011 Japan Plane Rectangular 6",
             "ja": "JGD2011 平面直角座標系 6系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 6).\n\nCovered Areas:\n\n  Kyoto, Osaka, Fukui, Shiga, Mie, Nara, Wakayama",
             "ja": "JGD2011 を基にした平面直角座標系(6系)です。\n\n該当地域（概要）:\n  京都府 大阪府 福井県 滋賀県 三重県 奈良県 和歌山県"
         }
     },
@@ -638,11 +608,11 @@
     "EPSG:6675": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 7",
+            "en": "JGD2011 Japan Plane Rectangular 7",
             "ja": "JGD2011 平面直角座標系 7系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 7).\n\nCovered Areas:\n\n  Ishikawa, Toyama, Gifu, Aichi",
             "ja": "JGD2011 を基にした平面直角座標系(7系)です。\n\n該当地域（概要）:\n  石川県 富山県 岐阜県 愛知県"
         }
     },
@@ -650,11 +620,11 @@
     "EPSG:6676": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 8",
+            "en": "JGD2011 Japan Plane Rectangular 8",
             "ja": "JGD2011 平面直角座標系 8系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 8).\n\nCovered Areas:\n\n  Niigata, Nagano, Yamanashi, Shizuoka",
             "ja": "JGD2011 を基にした平面直角座標系(8系)です。\n\n該当地域（概要）:\n  新潟県 長野県 山梨県 静岡県"
         }
     },
@@ -662,11 +632,11 @@
     "EPSG:6677": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 9",
+            "en": "JGD2011 Japan Plane Rectangular 9",
             "ja": "JGD2011 平面直角座標系 9系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 9).\n\nCovered Areas:\n\n  Tokyo (excluding Series 14, 18, and 19), Fukushima, Tochigi, Ibaraki, Saitama, Chiba, Gunma, Kanagawa",
             "ja": "JGD2011 を基にした平面直角座標系(9系)です。\n\n該当地域（概要）:\n  東京都（14系, 18系, 19系以外）福島県 栃木県 茨城県 埼玉県 千葉県 群馬県 神奈川県"
         }
     },
@@ -674,11 +644,11 @@
     "EPSG:6678": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 10",
+            "en": "JGD2011 Japan Plane Rectangular 10",
             "ja": "JGD2011 平面直角座標系 10系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 10).\n\nCovered Areas:\n\n  Aomori, Akita, Yamagata, Iwate, Miyagi",
             "ja": "JGD2011 を基にした平面直角座標系(10系)です。\n\n該当地域（概要）:\n  青森県 秋田県 山形県 岩手県 宮城県"
         }
     },
@@ -686,11 +656,11 @@
     "EPSG:6679": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 11",
+            "en": "JGD2011 Japan Plane Rectangular 11",
             "ja": "JGD2011 平面直角座標系 11系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 11).\n\nCovered Areas:\n\n  Hokkaido (western part)",
             "ja": "JGD2011 を基にした平面直角座標系(11系)です。\n\n該当地域（概要）:\n  北海道（西部）"
         }
     },
@@ -698,11 +668,11 @@
     "EPSG:6680": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 12",
+            "en": "JGD2011 Japan Plane Rectangular 12",
             "ja": "JGD2011 平面直角座標系 12系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 12).\n\nCovered Areas:\n\n  Hokkaido (excluding Series 11 and 13)",
             "ja": "JGD2011 を基にした平面直角座標系(12系)です。\n\n該当地域（概要）:\n  北海道（11系, 13系以外）"
         }
     },
@@ -710,11 +680,11 @@
     "EPSG:6681": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 13",
+            "en": "JGD2011 Japan Plane Rectangular 13",
             "ja": "JGD2011 平面直角座標系 13系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 13).\n\nCovered Areas:\n\n  Hokkaido (eastern part)",
             "ja": "JGD2011 を基にした平面直角座標系(13系)です。\n\n該当地域（概要）:\n  北海道（東部）"
         }
     },
@@ -722,11 +692,11 @@
     "EPSG:6682": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 14",
+            "en": "JGD2011 Japan Plane Rectangular 14",
             "ja": "JGD2011 平面直角座標系 14系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 14).\n\nCovered Areas:\n\n  Tokyo (Ogasawara Islands)",
             "ja": "JGD2011 を基にした平面直角座標系(14系)です。\n\n該当地域（概要）:\n  東京都（小笠原諸島）"
         }
     },
@@ -734,11 +704,11 @@
     "EPSG:6683": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 15",
+            "en": "JGD2011 Japan Plane Rectangular 15",
             "ja": "JGD2011 平面直角座標系 15系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 15).\n\nCovered Areas:\n\n  Okinawa (excluding Series 16 and 17)",
             "ja": "JGD2011 を基にした平面直角座標系(15系)です。\n\n該当地域（概要）:\n  沖縄県（16系, 17系以外）"
         }
     },
@@ -746,11 +716,11 @@
     "EPSG:6684": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 16",
+            "en": "JGD2011 Japan Plane Rectangular 16",
             "ja": "JGD2011 平面直角座標系 16系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 16).\n\nCovered Areas:\n\n  Okinawa (western part)",
             "ja": "JGD2011 を基にした平面直角座標系(16系)です。\n\n該当地域（概要）:\n  沖縄県（西部）"
         }
     },
@@ -758,11 +728,11 @@
     "EPSG:6685": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 17",
+            "en": "JGD2011 Japan Plane Rectangular 17",
             "ja": "JGD2011 平面直角座標系 17系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 17).\n\nCovered Areas:\n\n  Okinawa (Daito Islands)",
             "ja": "JGD2011 を基にした平面直角座標系(17系)です。\n\n該当地域（概要）:\n  沖縄県（大東諸島）"
         }
     },
@@ -770,11 +740,11 @@
     "EPSG:6686": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 18",
+            "en": "JGD2011 Japan Plane Rectangular 18",
             "ja": "JGD2011 平面直角座標系 18系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 18).\n\nCovered Areas:\n\n  Tokyo (Okinotorishima Island)",
             "ja": "JGD2011 を基にした平面直角座標系(18系)です。\n\n該当地域（概要）:\n  東京都（沖ノ鳥島）"
         }
     },
@@ -782,11 +752,11 @@
     "EPSG:6687": {
         "image": "epsg_6669.png",
         "name": {
-            "en": "JGD2011 Japan Plate Rectangular 19",
+            "en": "JGD2011 Japan Plane Rectangular 19",
             "ja": "JGD2011 平面直角座標系 19系"
         },
         "description": {
-            "en": "Japan Plate Rectangular System based on JGD2011 (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
+            "en": "Japan Plane Rectangular System based on JGD2011 (System 19).\n\nCovered Areas:\n\n  Tokyo (Minamitorishima Island)",
             "ja": "JGD2011 を基にした平面直角座標系(19系)です。\n\n該当地域（概要）:\n  東京都（南鳥島）"
         }
     },

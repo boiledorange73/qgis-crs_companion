@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/plugins/crs_companion">
-    <file>images/unknown.png</file>
-    <file>images/epsg_4326.png</file>
-    <file>images/epsg_3857.png</file>
-    <file>images/epsg_4301.png</file>
-    <file>images/epsg_6668.png</file>
-  </qresource>
-</RCC>

@@ -56,9 +56,9 @@ for datum in ("Tokyo Datum", "JGD2000", "JGD2011"):
   for n in range(0,19):
     syscode = n + 1
     epsgcode = "EPSG:%d" % (jpr_codes[datum] - 1 + syscode)
-    en_name = "%s Japan Plate Rectangular %d" % (datum, syscode)
+    en_name = "%s Japan Plane Rectangular %d" % (datum, syscode)
     ja_name = "%s 平面直角座標系 %d系" % (datum, syscode)
-    en_desc = "Japan Plate Rectangular System based on %s (System %d).\\n\\nCovered Areas:\\n\\n  %s" % (datum, syscode, (jpr_areas["en"])[n])
+    en_desc = "Japan Plane Rectangular System based on %s (System %d).\\n\\nCovered Areas:\\n\\n  %s" % (datum, syscode, (jpr_areas["en"])[n])
     ja_desc = "%s を基にした平面直角座標系(%d系)です。\\n\\n該当地域（概要）:\\n  %s" % (datum, syscode, (jpr_areas["ja"])[n])
     #
     dat = """    \"%s\": {
