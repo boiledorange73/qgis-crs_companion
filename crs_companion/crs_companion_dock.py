@@ -65,6 +65,7 @@ class ImageResizeHandle(QFrame):
         self.image_label = image_label
         self._drag_start_y = None
         self._start_height = image_label.image_height()
+        self.on_resize_finished  = None # called when resizing finish
 
         self.setObjectName("CrsCompanionImageResizeHandle")
         self.setFixedHeight(14)
@@ -176,20 +177,25 @@ class CrsCompanionDock(QDockWidget):
         self.data = self.config.data
         self.setWindowTitle(self.config.text("dock_title"))
         self.resize_handle.setToolTip(self.config.text("resize_handle_tooltip"))
-
+        #
         crs = QgsProject.instance().crs()
         authid = crs.authid() if crs and crs.isValid() else ""
-
-        items = self.data.get("items", {})
         #
-        item = items.get(authid)
-        # if items has alias, alias must be applied even though it has other properies.
-        if item and "alias" in item:
-            item = items.get(item["alias"])
-        # If item not found
-        if not item:
+        items = self.data.get("items", {})
+        if not isinstance(items, dict):
+            items = {}
+        #
+        item = items.get(authid, None)
+        if isinstance(item, dict):
+            if "alias" in item and isinstance(item["alias"], str):
+                # alias
+                item = items.get(item["alias"])
+                if not isinstance(item, dict):
+                    item = None
+        # overwrites "unknown item" when json has specified item.
+        if not isinstance(item, dict):
             item = self._unknown_item(authid)
-
+        # applies the item
         self._apply_item(authid, item)
 
     def _store_image_height(self, height):
