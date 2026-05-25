@@ -1,5 +1,7 @@
 [general]
 name=CRS Companion
+license=BSD-2-Clause
+icon=crs_companion-32x32.png
 qgisMinimumVersion=3.40
 qgisMaximumVersion=4.99
 description=Shows a companion panel for the current project CRS.
@@ -9,4 +11,4 @@ author=boiledorange73
 email=boiledorange73@gmail.com
 homepage=https://boiledorange73.sakura.ne.jp/
 repository=https://github.com/boiledorange73/qgis-crs_companion
-icon=crs_companion-32x32.png
+tracker=https://github.com/boiledorange73/qgis-crs_companion/issues
