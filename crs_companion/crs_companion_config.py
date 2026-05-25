@@ -23,15 +23,6 @@ class CrsCompanionConfig:
             if logger:
                 logger(f"Failed to load {path}: {e}")
 
-    def text(self, key, **kwargs):
-        value = self.localized(self.data.get("ui", {}), key)
-        if kwargs:
-            try:
-                return value.format(**kwargs)
-            except Exception:
-                return value
-        return value
-
     def localized(self, obj, key):
         if not isinstance(obj, dict):
             return ""

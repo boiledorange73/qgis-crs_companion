@@ -9,5 +9,4 @@ author=boiledorange73
 email=boiledorange73@gmail.com
 homepage=https://boiledorange73.sakura.ne.jp/
 repository=https://github.com/boiledorange73/qgis-crs_companion
-category=Plugins
 icon=crs_companion-32x32.png
