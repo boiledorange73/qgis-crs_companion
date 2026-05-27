@@ -1,6 +1,7 @@
 import json
 import os
 
+
 class CrsCompanionConfig:
     """Loads plugin UI strings and CRS companion data from JSON."""
 
@@ -35,9 +36,9 @@ class CrsCompanionConfig:
             # values is dict whose key is a lang and value is a localized text.
             return ""
         return (
-            values.get(self.locale)
-            or values.get(self.data.get("default_locale", "en"))
-            or ""
+            values.get(self.locale) or
+            values.get(self.data.get("default_locale", "en")) or
+            ""
         )
 
     def _current_locale(self):
@@ -54,4 +55,3 @@ class CrsCompanionConfig:
         if app_locale:
             return str(app_locale).split("_")[0].lower()
         return QLocale.system().name().split("_")[0].lower()
-
