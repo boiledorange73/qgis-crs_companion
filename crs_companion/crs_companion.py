@@ -36,7 +36,11 @@ class CrsCompanionPlugin:
         menu_text = self.tr("CRS Companion")
         menu_toggle_text = self.tr("Toggle CRS Companion")
         icon_path = os.path.join(self.plugin_dir, "crs_companion-32x32.png")
-        self.action = QAction(QIcon(icon_path), menu_toggle_text, self.iface.mainWindow())
+        self.action = QAction(
+            QIcon(icon_path),
+            menu_toggle_text,
+            self.iface.mainWindow()
+        )
         self.action.triggered.connect(self.toggle_dock)
 
         self.iface.addPluginToMenu(menu_text, self.action)
