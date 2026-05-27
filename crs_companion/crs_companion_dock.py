@@ -12,10 +12,14 @@ from qgis.PyQt.QtWidgets import (
     QFrame,
 )
 from qgis.core import QgsProject, QgsSettings, QgsMessageLog, Qgis
-from qgis.PyQt.QtCore import QCoreApplication, QTranslator
+from qgis.PyQt.QtCore import QCoreApplication
+
 
 class CompanionImageLabel(QLabel):
-    """Image width follows the dock width; height is controlled only by the handle."""
+    """
+      Image width follows the dock width;
+      height is controlled only by the handle.
+    """
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -23,7 +27,10 @@ class CompanionImageLabel(QLabel):
         self._image_height = 220
 
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        self.setSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Fixed
+        )
         self.setMinimumHeight(80)
         self.setFixedHeight(self._image_height)
         self.setCursor(Qt.CursorShape.ArrowCursor)
@@ -66,14 +73,17 @@ class ImageResizeHandle(QFrame):
         self.image_label = image_label
         self._drag_start_y = None
         self._start_height = image_label.image_height()
-        self.on_resize_finished  = None # called when resizing finish
+        self.on_resize_finished = None  # called when resizing finish
 
         self.setObjectName("CrsCompanionImageResizeHandle")
         self.setFixedHeight(14)
         self.setCursor(Qt.CursorShape.SizeVerCursor)
         self.setFrameShape(QFrame.Shape.HLine)
         self.setFrameShadow(QFrame.Shadow.Sunken)
-        self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        self.setSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Fixed
+        )
         self.setStyleSheet(
             "QFrame#CrsCompanionImageResizeHandle {"
             "border-top: 2px solid palette(mid);"
@@ -140,7 +150,9 @@ class CrsCompanionDock(QDockWidget):
             QSizePolicy.Policy.Expanding,
         )
 
-        self.code_label.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
+        self.code_label.setTextInteractionFlags(
+            Qt.TextInteractionFlag.TextSelectableByMouse
+        )
         self.name_label.setWordWrap(True)
         #
         self._setup_texts()
@@ -169,10 +181,11 @@ class CrsCompanionDock(QDockWidget):
             message,
             "CRS Companion",
             Qgis.Warning,
-    )
+        )
 
     def refresh(self):
-        # Reload JSON on refresh so UI/CRS text edits are picked up without restarting QGIS.
+        # Reload JSON on refresh so UI/CRS text edits are picked up
+        #   without restarting QGIS.
         # self.config.load(logger=self._log_warning)
         self.data = self.config.data
         self._setup_texts()
@@ -203,7 +216,11 @@ class CrsCompanionDock(QDockWidget):
 
     def _restore_image_height(self):
         settings = QgsSettings()
-        image_height = settings.value("CRSCompanion/imageHeight", 220, type=int)
+        image_height = settings.value(
+            "CRSCompanion/imageHeight",
+            220,
+            type=int
+        )
         self.image_label.set_image_height(image_height)
 
     def _unknown_item(self, authid):
@@ -214,7 +231,9 @@ class CrsCompanionDock(QDockWidget):
                 self.config.locale: self.tr("Unsupported CRS"),
             },
             "description": {
-                self.config.locale: self.tr("No companion data has been prepared for {code} yet.").format(code=code),
+                self.config.locale: self.tr(
+                    "No companion data has been prepared for {code} yet."
+                ).format(code=code),
             },
         }
 
@@ -240,7 +259,10 @@ class CrsCompanionDock(QDockWidget):
         # gets image_path
         if isinstance(item, dict) and "image" in item:
             image_name = item["image"]
-            image_path = self._check_file_in_dir( os.path.join(self.plugin_dir, "images"), image_name)
+            image_path = self._check_file_in_dir(
+                os.path.join(self.plugin_dir, "images"),
+                image_name
+            )
             if image_path is not None:
                 pixmap = QPixmap(image_path)
                 if pixmap.isNull():
@@ -248,7 +270,10 @@ class CrsCompanionDock(QDockWidget):
         # if gets no image, gets fallback image
         if pixmap is None:
             image_name = self.data.get("fallback_image", "unknown.png")
-            image_path = self._check_file_in_dir( os.path.join(self.plugin_dir, "images"), image_name)
+            image_path = self._check_file_in_dir(
+                os.path.join(self.plugin_dir, "images"),
+                image_name
+            )
             if image_path is not None:
                 pixmap = QPixmap(image_path)
                 if pixmap.isNull():
@@ -257,11 +282,18 @@ class CrsCompanionDock(QDockWidget):
         self.image_label.set_companion_pixmap(pixmap)
         self.code_label.setText(authid or self.tr("Unknown CRS"))
         self.name_label.setText(self._localized_value(item, "name"))
-        self.description_text.setPlainText(self._localized_value(item, "description"))
+        self.description_text.setPlainText(
+            self._localized_value(item, "description")
+        )
 
     def tr(self, message):
         return QCoreApplication.translate("CrsCompanion", message)
 
     def _setup_texts(self):
         self.setWindowTitle(self.tr("CRS Companion"))
-        self.resize_handle.setToolTip(self.tr("Drag this horizontal line to resize the CRS image vertically."))
+        self.resize_handle.setToolTip(
+            self.tr(
+                "Drag this horizontal line "
+                "to resize the CRS image vertically."
+            )
+        )
