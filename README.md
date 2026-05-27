@@ -70,6 +70,11 @@ Compile `.ts` files to `.qm` with Qt Linguist tools in your QGIS/Qt environment 
 
 The CRS Companion dock panel will appear on the right side of the QGIS window.
 
+# How to use.
+
+- Once installed, you'll see the icon ![CRS Companion icon](crs_companion/crs_companion-32x32.png).
+- Click the icon to toggle the panel.
+- You can dock / undock and resize the panel.
 
 ## License
 
